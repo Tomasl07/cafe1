@@ -2,17 +2,63 @@ header{
     background-image: url(../public/cafe2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 50rem;
-    width: 120rem;
+    height: 6rem;
+    width: 20rem;
 }
 
 .recuadro1{
-    padding-top: 16rem;
-    padding-left: 10px;
     .titulo{
-        padding-left: 420px;
+        padding-left: 74px;
+    }
+    .descrip{
+        font-size: 10px;
     }
 }
+.contenedormain{
+    padding: 10px;
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+}
+.subti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedormain1{
+    background-color: black;
 
+    margin-top: -8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        padding: 40px;
+    }
+    p{  
+        color: white;
+        font-size: 30px;
+    }
+}
+.imgmain{
+    width: 30%;
+}
+
+.divfooter{
+    display: flex;
+    justify-content: space-between;
+
+    color: black;
+    .iconos{
+        display: flex;
+    }
+    .arriba{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
 
 
