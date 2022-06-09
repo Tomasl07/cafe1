@@ -1,2 +1,12 @@
-.carousel1 {
-  margin-left: 12rem; }
+header {
+  background-image: url(../public/cafe2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50rem;
+  width: 120rem; }
+
+.recuadro1 {
+  padding-top: 16rem;
+  padding-left: 10px; }
+  .recuadro1 .titulo {
+    padding-left: 420px; }
