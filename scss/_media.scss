@@ -1,6 +1,6 @@
 @media screen and (min-width: 769px){
     header{
-        height: 31rem;
+        height: 30rem;
         width: auto;
     }
     
@@ -12,13 +12,41 @@
             font-size: 2em;
         }
         .descrip{
-            font-size: 25px;
+            font-size: 22px;
         }
     }
 
+    .contenedormain{
+        h3{
+            font-size: 30px;
+        }
+        h6{
+            font-size: 15px;
+        }
+    }
+    .contenedormain1{
+        display: flex;
+        flex-direction: row;
+        p{
+            font-size: 30px;
+        }
+    }
+    .imgmain{
+        width: 40%;
+    }
 
-
-
-
-
+    .divfooter{
+        display: flex;
+        justify-content: space-between;
+    
+        color: black;
+        .iconos{
+            display: flex;
+        }
+        .arriba{
+            text-decoration: none;
+            color: black;
+        }
+        
+    }
 }

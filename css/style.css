@@ -3,7 +3,7 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 6rem;
-  width: 20rem; }
+  width: auto; }
 
 .recuadro1 .titulo {
   padding-left: 74px; }
@@ -13,6 +13,10 @@ header {
 
 .contenedormain {
   padding: 10px; }
+  .contenedormain h3 {
+    font-size: 18px; }
+  .contenedormain h6 {
+    font-size: 10px; }
 
 .titulo1 {
   display: flex;
@@ -26,31 +30,43 @@ header {
 .contenedormain1 {
   background-color: black;
   margin-top: -8px;
+  padding: 15px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
   .contenedormain1 div {
     padding: 40px; }
   .contenedormain1 p {
     color: white;
-    font-size: 30px; }
+    font-size: 15px; }
 
 .imgmain {
-  width: 30%; }
+  width: 90%; }
 
 .divfooter {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: black; }
   .divfooter .iconos {
-    display: flex; }
+    display: flex;
+    flex-direction: column; }
   .divfooter .arriba {
     text-decoration: none;
     color: black; }
+  .divfooter .arriba1 {
+    padding-left: 60px; }
+  .divfooter .cp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 80px; }
 
 @media screen and (min-width: 769px) {
   header {
-    height: 31rem;
+    height: 30rem;
     width: auto; }
   .recuadro1 {
     padding-top: 16rem;
@@ -59,4 +75,24 @@ header {
       padding-left: 420px;
       font-size: 2em; }
     .recuadro1 .descrip {
-      font-size: 25px; } }
+      font-size: 22px; }
+  .contenedormain h3 {
+    font-size: 30px; }
+  .contenedormain h6 {
+    font-size: 15px; }
+  .contenedormain1 {
+    display: flex;
+    flex-direction: row; }
+    .contenedormain1 p {
+      font-size: 30px; }
+  .imgmain {
+    width: 40%; }
+  .divfooter {
+    display: flex;
+    justify-content: space-between;
+    color: black; }
+    .divfooter .iconos {
+      display: flex; }
+    .divfooter .arriba {
+      text-decoration: none;
+      color: black; } }
