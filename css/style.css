@@ -68,7 +68,7 @@
     padding-left: 80px; }
 
 .logo {
-  width: 5%; }
+  width: 25%; }
 
 .navbar-brand {
   font-family: 'Hind', sans-serif; }
@@ -140,7 +140,23 @@
   -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75); }
 
+.maquinas {
+  background-color: black;
+  color: #b28405;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.cuotas {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: black; }
+
 @media screen and (min-width: 769px) {
+  .logo {
+    width: 5%; }
   .header {
     height: 30rem;
     width: auto; }
