@@ -28,14 +28,17 @@
 .tarjetas-main{
     padding-right: 70em;
     gap: 15px;
+
+    display: flex;
+    flex-direction: column;
 }
 .cartamain {
         border-radius: 50px;
         transition: transform .2s, box-shadow .2s;
         margin-top: 1rem; 
     }
-.cartamain img {
-          border-radius: 50px 50px 50px 50px; }
+ .cartamain img {
+           border-radius: 50px 50px 50px 50px; }
 .cartamain:hover {
     border: none;
     transform: translate(0, -20px);
@@ -59,6 +62,8 @@
 }
 .tarjetas-main1{
     align-items: flex-end;
+    display: flex;
+    flex-direction: column;
 
     padding-left: 70em;
     gap: 15px;
@@ -66,10 +71,9 @@
 .cartamain1{
     border-radius: 50px;
     transition: transform .2s, box-shadow .2s;
-    margin-top: 1rem; 
-}
-.cartamain1 img {
-      border-radius: 50px 50px 50px 50px; }
+    margin-top: 1rem;}
+ .cartamain1 img {
+       border-radius: 50px 50px 50px 50px; }
 .cartamain1:hover {
 border: none;
 transform: translate(0, -20px);

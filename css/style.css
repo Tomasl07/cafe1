@@ -84,7 +84,9 @@
 
 .tarjetas-main {
   padding-right: 70em;
-  gap: 15px; }
+  gap: 15px;
+  display: flex;
+  flex-direction: column; }
 
 .cartamain {
   border-radius: 50px;
@@ -113,6 +115,8 @@
 
 .tarjetas-main1 {
   align-items: flex-end;
+  display: flex;
+  flex-direction: column;
   padding-left: 70em;
   gap: 15px; }
 
@@ -162,4 +166,13 @@
       display: flex; }
     .divfooter .arriba {
       text-decoration: none;
-      color: black; } }
+      color: black; }
+  .tarjetas-main {
+    padding-left: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px; }
+  .tarjetas-main1 {
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px; } }
