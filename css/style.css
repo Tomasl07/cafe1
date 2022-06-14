@@ -1,4 +1,4 @@
-header {
+.header {
   background-image: url(../public/cafe2.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -64,8 +64,75 @@ header {
     font-size: 15px;
     padding-left: 80px; }
 
+.divcafe {
+  background-color: black; }
+  .divcafe p {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.tituloventa {
+  font-size: 40px;
+  display: flex; }
+  .tituloventa p {
+    background-color: black;
+    color: white;
+    padding-left: 7em;
+    padding-right: 10em; }
+
+.tarjetas-main {
+  padding-right: 70em;
+  gap: 15px; }
+
+.cartamain {
+  border-radius: 50px;
+  transition: transform .2s, box-shadow .2s;
+  margin-top: 1rem; }
+
+.cartamain img {
+  border-radius: 50px 50px 50px 50px; }
+
+.cartamain:hover {
+  border: none;
+  transform: translate(0, -20px);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75); }
+
+.tituloventa1 {
+  display: flex;
+  justify-content: end;
+  font-size: 40px; }
+  .tituloventa1 p {
+    background-color: black;
+    color: white;
+    padding-left: 7em;
+    padding-right: 15em; }
+
+.tarjetas-main1 {
+  align-items: flex-end;
+  padding-left: 70em;
+  gap: 15px; }
+
+.cartamain1 {
+  border-radius: 50px;
+  transition: transform .2s, box-shadow .2s;
+  margin-top: 1rem; }
+
+.cartamain1 img {
+  border-radius: 50px 50px 50px 50px; }
+
+.cartamain1:hover {
+  border: none;
+  transform: translate(0, -20px);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75); }
+
 @media screen and (min-width: 769px) {
-  header {
+  .header {
     height: 30rem;
     width: auto; }
   .recuadro1 {
