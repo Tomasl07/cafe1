@@ -154,6 +154,9 @@
   font-size: 18px;
   color: black; }
 
+.contenedortazas {
+  padding: 10px; }
+
 @media screen and (min-width: 769px) {
   .logo {
     width: 5%; }
