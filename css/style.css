@@ -1,3 +1,6 @@
+.navbar {
+  font-size: 20px; }
+
 .header {
   background-image: url(../public/cafe2.jpg);
   background-size: 100%;
@@ -64,29 +67,31 @@
     font-size: 15px;
     padding-left: 80px; }
 
+.logo {
+  width: 5%; }
+
 .divcafe {
   background-color: black; }
   .divcafe p {
-    font-size: 30px;
-    color: white;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center; }
 
 .tituloventa {
-  font-size: 40px;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: black; }
   .tituloventa p {
-    background-color: black;
-    color: white;
-    padding-left: 7em;
-    padding-right: 10em; }
+    color: white; }
 
 .tarjetas-main {
-  padding-right: 70em;
   gap: 15px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
 
 .cartamain {
   border-radius: 50px;
@@ -105,19 +110,16 @@
 
 .tituloventa1 {
   display: flex;
-  justify-content: end;
-  font-size: 40px; }
+  justify-content: center;
+  font-size: 20px;
+  background-color: black; }
   .tituloventa1 p {
-    background-color: black;
-    color: white;
-    padding-left: 7em;
-    padding-right: 15em; }
+    color: white; }
 
 .tarjetas-main1 {
-  align-items: flex-end;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  padding-left: 70em;
   gap: 15px; }
 
 .cartamain1 {
@@ -167,12 +169,18 @@
     .divfooter .arriba {
       text-decoration: none;
       color: black; }
+  .divcafe p {
+    font-size: 30px; }
+  .tituloventa {
+    font-size: 40px; }
+  .tituloventa1 {
+    font-size: 40px; }
   .tarjetas-main {
     padding-left: 0px;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     gap: 30px; }
   .tarjetas-main1 {
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     gap: 30px; } }

@@ -52,14 +52,25 @@
 
 
     // CAFE HTML
+    .divcafe{
+        p{
+            font-size: 30px;
+        }
+    }
+    .tituloventa{
+        font-size: 40px;   
+    }
+    .tituloventa1{
+        font-size: 40px;   
+    }
     .tarjetas-main{
         padding-left: 0px;
-        justify-content: space-between; 
+        justify-content: center; 
         flex-direction: row;
         gap: 30px;}
     
     .tarjetas-main1{
-       justify-content: space-between; 
+       justify-content: center; 
        flex-direction: row;
        gap: 30px;}
 
