@@ -14,6 +14,7 @@
 }
 
 .recuadro1{
+    
     .titulo{
         padding-left: 74px;
     }
@@ -60,7 +61,10 @@
 .imgmain{
     width: 90%;
 }
-
+.enlaceboton{
+    text-decoration: none;
+    color: black;
+}
 .divfooter{
     display: flex;
     justify-content: space-between;
